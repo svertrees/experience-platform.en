@@ -54,7 +54,7 @@ Adobe Experience Platform Web SDK can also send data directly to Adobe Experienc
 
 ## What is the value of this new Web SDK?
 
-**Performance:** The web SDK is smaller than using all of the current Adobe libraries and provides significantly faster page loads.
+**Performance:** The web SDK is smaller than using all of the current Adobe libraries and provides significantly [faster page loads](https://blog.developer.adobe.com/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9).
 
 **Simplicity:** The combination of XDM, Web SDK, tags, Edge Network, Adobe Experience Cloud solutions, and Adobe Experience Platform creates an easy-to-understand and simple-to-follow data collection story.
 
@@ -95,7 +95,7 @@ Adobe Experience Platform Web SDK has been developed for the following people:
 
 ## How do I get access to start using Adobe Experience Platform Web SDK?
 
-The Web SDK is currently available to the general public and can be used to send data to Adobe Experience Cloud products. The ability to send data to third-party solutions is coming in the near future. There is no charge for the SDK, and it is hosted by Adobe for free. If required, you can download it and host it on your own servers at no cost. Platform Web SDK requires access to Datastream configurations and the Adobe Experience Platform XDM schema builder, in order for Adobe's servers to properly handle inbound data coming from the SDK. If you would like to get access, contact your Adobe account team to start the request process.
+The Web SDK is currently available to the general public and can be used to send data to Adobe Experience Cloud products. The ability to send data to third-party solutions is coming in the near future. There is no charge for the SDK, and it is hosted by Adobe for free. If required, you can [download it](https://github.com/adobe/alloy/releases)and host it on your own servers at no cost. Platform Web SDK requires access to Datastream configurations and the Adobe Experience Platform XDM schema builder, in order for Adobe's servers to properly handle inbound data coming from the SDK. If you would like to get access, contact your Adobe account team to start the request process.
 
 ## What use cases are currently supported by the Web SDK?
 
@@ -125,19 +125,19 @@ Yes, Adobe Experience Platform Web SDK provides an Identity Migration feature. F
 
 ## Do I have to use tags to deploy the Web SDK?
 
-No. You can download the `alloy.js` file yourself.
+No. You can [download the `alloy.js` file yourself](https://github.com/adobe/alloy/releases).
 
 However:
 
 * Adobe Experience Platform Web SDK requires something called a Datastream ID so the edge network can identify the stream and determine what to do with the data. This ID is created within Experience Platform. This doesn't mean you have to use the UI to create properties or deploy the JavaScript code, but you do need to use tags to create a configuration ID.
 
-* Tags are not only the best available tag and SDK manager, it makes it very easy to deploy `alloy.js` and map data to XDM schemas. If you decide not to use tags, you will have to manage deploying `alloy.js`, eventing, and mapping your data into XDM before sending it. This is a _much_ more difficult process than using tags.
+* Tags are not only the best available tag and SDK manager, it makes it very easy to deploy `alloy.js` and map data to XDM schemas. If you decide not to use Tags, you will have to manage deploying `alloy.js`, eventing, and mapping your data into XDM before sending it. This is a _much_ more difficult process than using Tags.
 
-* It is recommended that you use tags to deploy `alloy.js`, even if it's the only tag you use it for.
+* It is recommended that you use Tags to deploy `alloy.js`, even if it's the only tag you use it for.
 
 ## What is event forwarding?
 
-If you use our SDKs and send XDM to the Edge Network, these new features event forwarding allows you to install new server-side extensions and map that data to anything--and send it anywhere--from our edge network. Think of it as "data collection as a service". This will be available for a cost, as well as being bundled as part of Adobe Experience Platform.
+If you use our SDKs and send XDM to the Edge Network, these new features event forwarding allows you to install new server-side extensions and map that data to anything--and send it anywhere--from our Edge network. Think of it as "data collection as a service". This will be available for a cost, as well as being bundled as part of Adobe Experience Platform.
 
 ## What is a CNAME or First Party Domain and why does it matter?
 
